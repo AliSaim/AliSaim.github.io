@@ -30,10 +30,22 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-
 // CSS Styling for the Projects page
-#centerid{
-    color: red;
+//use "." for classname
+.projectName{
+    text-align: center;
+}
+
+.projectImage{
+    text-align: center;
+}
+
+.projectDetails{
+    text-align: center;
+}
+
+// use "#" for id
+#projectNameId{
 }
 
 

@@ -1,6 +1,12 @@
 @charset "UTF-8";
-#centerid {
-  color: red; }
+.projectName {
+  text-align: center; }
+
+.projectImage {
+  text-align: center; }
+
+.projectDetails {
+  text-align: center; }
 
 /**
  * Reset some basic elements
