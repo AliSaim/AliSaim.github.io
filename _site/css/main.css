@@ -8,6 +8,10 @@
 .projectDetails {
   text-align: center; }
 
+.footerContent {
+  text-align: center;
+  font-style: italic; }
+
 /**
  * Reset some basic elements
  */
