@@ -12,6 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+
 $spacing-unit:     30px;
 
 $text-color:       #111;
@@ -28,6 +29,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+
+
+// CSS Styling for the Projects page
+#centerid{
+    color: red;
+}
 
 
 // Use media queries like this:
