@@ -50,9 +50,31 @@ $on-laptop:        800px;
     font-style: italic;
 }
 
+
+// Used for form buttons to keep them aligh to right
+.formButtons{
+    text-align: right;
+    padding-right: 20px;
+}
+
 // use "#" for id
 #projectNameId{
 }
+
+
+#formSectionOfContactPage{
+}
+
+#contactSectionOfContactPage, #h3{
+    color: red;
+    text-align: center;
+}
+
+#mediaIconsImages{
+    padding-top: 35px;
+    text-align: center;
+}
+
 
 
 
