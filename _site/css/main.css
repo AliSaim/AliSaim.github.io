@@ -20,7 +20,7 @@
   border-radius: 8px;
   margin-bottom: 5px;
   padding-top: 20px;
-  padding-left: 12px;
+  padding-left: 20px;
   padding-bottom: 20px;
   background: #C9D6FF;
   /* fallback for old browsers */
@@ -29,11 +29,11 @@
   background: linear-gradient(to left, #E2E2E2, #C9D6FF);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
-.workExperianceFormate {
+.workExperianceFormate, .educationeFormate {
   border-radius: 8px;
   margin-bottom: 5px;
   padding-top: 20px;
-  padding-left: 25px;
+  padding-left: 40px;
   padding-bottom: 20px;
   background: #C9D6FF;
   /* fallback for old browsers */
@@ -43,7 +43,12 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .jobPeriod {
-  font-style: italic; }
+  font-style: italic;
+  text-align: right;
+  padding-right: 40px; }
+
+.jobDescription {
+  padding-left: 20px; }
 
 #contactSectionOfContactPage, #h3 {
   color: red;
