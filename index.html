@@ -4,17 +4,36 @@ layout: default_bootstrap
 
 <div class="container">
 
-    <p>{{ site.descriptiontwo }}</p>
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="row">
+  <div class="col-sm-8">
+    <div class="introText" id="introTextId">
+      Hi! My name is Ali Saim. I am a software developer. This is my portfolio website that I made using Jekyll. I made this website because I want to stand out from other students. It would be kinda of funny if like 95% of students also has portfolio websites. I would not be standing out from the rest, I would be amongest the rest. LOL. <br> If you are seeing then please consider hireing me. LOL :)
+    </div>
+  </div>
+  <div class="col-sm-4">
 
-    {% for post in site.posts %}
+    <div>
+      <img class="introSideImage" src="/assets/ali_images/ali_pic_bw_crop.jpg" alt="Picture Of Project">
+    </div>
+  </div>
+</div>
+
+
+  <div class="jumbotron">
+   <p>{{ site.descriptiontwo }}</p>
+   </div>
+
+<h1 class="page-heading">Posts</h1>
+    
+        {% for post in site.posts %}
+
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <div class="jumbotron">
-        <h1>{{ post.title }}</h1>
-        <p>{{ post.summary }}</p>
-        <p><a class="btn btn-primary btn-lg" href="{{ post.url | prepend: site.baseurl }}" role="button">Learn more</a></p>
-      </div>
+        <div class="jumbotron">
+          <h1>{{ post.title }}</h1>
+          <p>{{ post.summary }}</p>
+          <p><a class="btn btn-primary btn-lg" href="{{ post.url | prepend: site.baseurl }}" role="button">Learn more</a></p>
+        </div>
     {% endfor %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

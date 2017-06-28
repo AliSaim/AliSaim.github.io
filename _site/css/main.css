@@ -50,6 +50,13 @@
 .jobDescription {
   padding-left: 20px; }
 
+.introText {
+  color: red; }
+
+.introSideImage {
+  border-radius: 90px;
+  border: 1px solid black; }
+
 #contactSectionOfContactPage, #h3 {
   text-align: center; }
 
