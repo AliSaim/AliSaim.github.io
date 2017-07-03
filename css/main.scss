@@ -95,15 +95,23 @@ background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Fi
     padding-left: 20px;
 }
 
-
-
-.introText{
-    color: red;
+#introTextId{
+    color: black;
+    font-size: 1.2em;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .introSideImage{
     border-radius: 90px;
-    border: 1px solid black;
+    border: 3px solid black;
+    align-self: left;
+}
+
+.introSideImageDiv{
+    margin-top: -232px;
+    margin-right: 40px;
+    text-align: right;
 }
 
 
