@@ -30,6 +30,44 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+//  Parent CSS
+/*--------------------------------*/
+
+
+//RectangleContiner
+.RectangleContiner{
+border-radius: 10px;
+margin-bottom: 10px;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 20px;
+background: #F8F8F8;  /* fallback for old browsers */
+}
+
+
+
+
+
+
+
+
+//Footer CSS
+.footerContent{
+    text-align: center;
+    font-style: italic;
+}
+
+/*--------------------------------*/
+
+
+
+//for home page
+#introIndexPage{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
 .sectionTitle{
 margin-left: 25px;
 }
@@ -51,11 +89,6 @@ margin-left: 25px;
 }
 
 
-.footerContent{
-    text-align: center;
-    font-style: italic;
-}
-
 
 // Used for form buttons to keep them aligh to right
 .formButtons{
@@ -66,30 +99,6 @@ margin-left: 25px;
 
 
 
-
-//locker room css
-.lockerroomPageParentFormate{
-border-radius: 8px;
-margin-bottom: 5px;
-padding-top: 20px;
-padding-left: 20px;
-padding-bottom: 20px;
-background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-.workExperianceFormate, .educationeFormate{
-border-radius: 8px;
-margin-bottom: 5px;
-padding-top: 20px;
-padding-left: 40px;
-padding-bottom: 20px;
-background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 //used for aligning the date periods in the loockerrrom page
 .jobPeriod{
     font-style: italic;
@@ -99,13 +108,6 @@ background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Fi
 
 .jobDescription{
     padding-left: 20px;
-}
-
-#introTextId{
-    color: black;
-    font-size: 1.2em;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .introSideImage{
