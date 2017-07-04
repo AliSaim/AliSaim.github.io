@@ -18,8 +18,25 @@
   margin-left: 15px;
   margin-right: 15px; }
 
+.introSideImage {
+  border-radius: 15px; }
+
+.introSideImageDiv {
+  text-align: center; }
+
 .sectionTitle {
   margin-left: 25px; }
+
+.workExpHeaderText, .jobTitle, .companyOfJob, .educationHeaderText {
+  padding-left: 15px; }
+
+.jobPeriod {
+  font-style: italic;
+  text-align: right;
+  padding-right: 40px; }
+
+.jobDescription {
+  padding-left: 20px; }
 
 .projectName {
   text-align: center; }
@@ -34,26 +51,19 @@
   text-align: right;
   padding-right: 20px; }
 
-.jobPeriod {
-  font-style: italic;
-  text-align: right;
-  padding-right: 40px; }
-
-.jobDescription {
-  padding-left: 20px; }
-
-.introSideImage {
-  border-radius: 15px; }
-
-.introSideImageDiv {
-  text-align: center; }
-
 #contactSectionOfContactPage, #h3 {
   text-align: center; }
 
 #mediaIconsImages {
   padding-top: 35px;
   text-align: center; }
+
+.cityImage {
+  border-radius: 15px; }
+
+.cityImageDiv {
+  padding-right: 15px;
+  padding-left: 15px; }
 
 .readMoreDiv {
   text-align: right; }

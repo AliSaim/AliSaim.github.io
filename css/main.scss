@@ -35,7 +35,7 @@ $on-laptop:        800px;
 
 
 //RectangleContiner
-.RectangleContiner{
+.RectangleContiner{//understand
 border-radius: 10px;
 margin-bottom: 10px;
 padding-top: 20px;
@@ -46,15 +46,10 @@ background: #F8F8F8;  /* fallback for old browsers */
 
 
 
-
-
-
-
-
 //Footer CSS
 .footerContent{
     text-align: center;
-    font-style: italic;
+    font-style: italic;// understand
 }
 
 /*--------------------------------*/
@@ -68,10 +63,51 @@ background: #F8F8F8;  /* fallback for old browsers */
 }
 
 
+.introSideImage{
+    border-radius: 15px;
+}
+
+.introSideImageDiv{
+    text-align: center;
+}
+
+//END OF HOME PAGE-----------------
+
+
 .sectionTitle{
 margin-left: 25px;
 }
 
+
+//LOCKERROOM page -------------------
+
+.workExpHeaderText, .jobTitle, .companyOfJob, .educationHeaderText{
+    padding-left: 15px;
+    //understand
+}
+
+.jobPeriod{
+    font-style: italic;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.jobDescription{
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+//END of LockerROOM page
 
 
 // CSS Styling for the Projects page
@@ -99,24 +135,7 @@ margin-left: 25px;
 
 
 
-//used for aligning the date periods in the loockerrrom page
-.jobPeriod{
-    font-style: italic;
-    text-align: right;
-    padding-right: 40px;
-}
 
-.jobDescription{
-    padding-left: 20px;
-}
-
-.introSideImage{
-    border-radius: 15px;
-}
-
-.introSideImageDiv{
-    text-align: center;
-}
 
 
 
@@ -134,14 +153,35 @@ margin-left: 25px;
 
 
 
-//Blogs page
-.readMoreDiv{ 
-    text-align: right;
-    }
-.blogImage{
-    text-align: center;
+//Contact page----------------
+.cityImage{
+     border-radius: 15px;
+     //understand
+}
+.cityImageDiv{
+  padding-right: 15px;
+    padding-left: 15px;
+    //understand
 }
 
+//END of CONTACT Page
+
+
+
+
+
+//Blogs page------------------
+.readMoreDiv{ 
+    text-align: right;
+    //understand
+    }
+
+.blogImage{
+    text-align: center;
+    //understand
+}
+
+//END of Blogs Page ----------------
 
 
 
