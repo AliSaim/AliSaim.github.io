@@ -12,45 +12,45 @@
         <div class="container">
 
 
+            {% for post in site.posts %}
 
-        <!-- First Article -->
-        <div class="RectangleContiner">
-        <div class="row">
-            <div class="col-sm-8">
-                <div><h4>Bulbasaur is a bad choice</h4></div>
-                <div>
-                    In this box, you want to write a small description or the summary of the blog. This is just to try and get the reader's attention. The title of the article should also be click bait- LOL
-                </div>
+            <div class="RectangleContiner">
+
+                <span class="post-meta"> <i class="fa fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+        
+                <div class="row">
+
+                    <div class="col-sm-8">
+
+                        <h1>{{ post.title }}</h1>
+                        <p>{{ post.summary }}</p>
+                     
+                            <div class="readMoreDiv">
+                                <a class="btn btn-default" href="{{ post.url | prepend: site.baseurl }}" role="button">  <i class="fa fa-file-text" aria-hidden="true"></i>  Read More! </a>
+                            </div>
+                           <h6> <i class="fa fa-question" aria-hidden="true"></i> {{ post.topics }}</h6>    
                 
-                <div><i class="fa fa-calendar" aria-hidden="true"></i>
-                    Posted: July 1st 2017
-                </div>
+                    </div>
 
 
-                <div class="readMoreDiv">
-                    <h5> <i class="fa fa-file-text" aria-hidden="true"></i> Read The Rest!</h5>
+                    <div class="col-sm-4">
+                        <div class="blogImage">
+                            <!-- <img src="/assets/blogPage/Bulbasaur.png" alt="Picture Of Pokemon">  -->
+                            <img src="   {{ post.image }}">
+                        </div>
+                    </div>
+                
+
                 </div>
 
             </div>
-
-
-            <div class="col-sm-4">
-                <div class="blogImage">
-                <img src="/assets/blogPage/Bulbasaur.png" alt="Picture Of Pokemon">
-                <div>
-
-            </div>
-            
-        </div>
-        </div>
-
-         
+            {% endfor %}
 
 
 
 
-        </div>
-    </div>
+        </div> <!-- END of Container -->
+    </div> <!-- END of Page content -->
 
     {% include footer.html %}
 
