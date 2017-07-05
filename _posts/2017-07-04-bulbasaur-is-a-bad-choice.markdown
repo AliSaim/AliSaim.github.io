@@ -7,37 +7,21 @@ topics: Random, Blog, Gaming, Pokemon
 summary: In this box, you want to write a small description or the summary of the blog. This is just to try and get the reader's attention. The title of the article should also be click bait- LOL
 image: /assets/blogPage/Bulbasaur.png
 ---
-
-
-
-![Awesome-screenshot](http://streetturtle.github.io/images/awesome_scrnsht.png); <br>
-![insta-bears](http://streetturtle.github.io/images/insta-bears.jpg){:.center-image}
-
-
-
-{: .center}
-![image](/assets/ali_images/ali_pic.jpg) "Github Developer Pack")
-
-![Picture text](/assets/ali_images/ali_pic.jpg){: .center-image .example-class1 .example-class2 }
-
-![image-title-here](/assets/ali_images/ali_pic.jpg){: class="center-image"}
-
 Given the choice of Charmander, Squirtle and Bulbasaur, you should always choose between the two former and never Bulbasaur. Once these three starter Pokémons have fully evolved to their last form, Bulbasaur is useless in comparison to the other two and does not provide as much as the other two starter Pokémon.
 
-<img class="imgInsideBlog" src="   {{ post.image }}">
-
-<img class="cityImage" src="/assets/ali_images/ali_pic.jpg" alt="Picture Of Toronto">
-
+<img class="cityImage" src="/assets/blogPage/Blastoise.png" style="text-align: center; border-radius: 15px;" alt="Picture Of Pokemon">
 
 Blastoise, which is Squirtle’s last and second evolution is able to swim in rivers and oceans.
 He can carry you and the rest of your Pokémons on his back to many islands in the middle on the oceans. This is very useful for exploring new lands, find Pokémons and completing your Pokédex. 
 Blastoise is also only water type.
 
-![Picture description](/assets/ali_images/ali_pic.jpg){: .center-image }
+<img class="cityImage" src="/assets/blogPage/Charizard.png" style="text-align: center; border-radius: 15px;" alt="Picture Of Pokemon">
 
 Charizard, which is the second and last evolution of Charmander, this Pokémon is by far the best choice from the starter Pokémons. He can fly and similar Blastoise, provide a form of mobility by carrying you and your Pokémons around the world.
 Charizard is a two type. Fire and Flying and has the edge over Blastoise as the better choice. 
 Of course, in a 1 v 1 battle, Blastoise will win over Charizard as water beats fire. Charizard on the other hand, will win battles against grass types and other Pokémons that are weak to flying types.
+
+<img class="cityImage" src="/assets/blogPage/Venusaur.png" style="text-align: center; border-radius: 15px;" alt="Picture Of Pokemon">
 
 Venusaur, the second and last evolution of Bulbasaur. Venusaur does not provide form of mobility/utility like Charizard and Blastoise. Although, Venusaur is a grass and poison type, this Pokémon in my opinion is by far the weakest and this is why you should not choose Bulbasaur as your starting options.
 
@@ -56,4 +40,3 @@ Give him a second type. I suggest a tank type. He does a shell that can absorb d
 It does not make sense to give this Pokémon a mobility ability, he can’t fly nor can he swim and is when it comes to moving around, he overall very slow in my opinion. In order to make Venusaur more of a viable option, he needs to be buffed in other ways. Giving him a healing ability makes the most sense.
 
 With these changes, it will make choosing Bulbasaur as starter Pokémon equally as good as choosing the other two option. 
-
