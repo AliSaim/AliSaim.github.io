@@ -2,35 +2,58 @@
 layout: post
 title:  "Bulbasaur is a bad choice!"
 date:   2017-07-04 17:09:58 +0200
-categories: Random, Blog, Gaming, Pokemon
+categories: Random Blog Gaming Pokemon
 topics: Random, Blog, Gaming, Pokemon
 summary: In this box, you want to write a small description or the summary of the blog. This is just to try and get the reader's attention. The title of the article should also be click bait- LOL
 image: /assets/blogPage/Bulbasaur.png
 ---
 
-... which is shown in the screenshot below:
-[My helpful screenshot]({{ site.url }}/assets/ali_images/ali_pic.jpg)
 
-LOL, please work.
 
-![image-title-here](/assets/ali_images/ali_pic.jpg){:class="img-responsive"}
+![Awesome-screenshot](http://streetturtle.github.io/images/awesome_scrnsht.png); <br>
+![insta-bears](http://streetturtle.github.io/images/insta-bears.jpg){:.center-image}
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+{: .center}
+![image](/assets/ali_images/ali_pic.jpg) "Github Developer Pack")
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+![Picture text](/assets/ali_images/ali_pic.jpg){: .center-image .example-class1 .example-class2 }
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+![image-title-here](/assets/ali_images/ali_pic.jpg){: class="center-image"}
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Given the choice of Charmander, Squirtle and Bulbasaur, you should always choose between the two former and never Bulbasaur. Once these three starter Pokémons have fully evolved to their last form, Bulbasaur is useless in comparison to the other two and does not provide as much as the other two starter Pokémon.
+
+<img class="imgInsideBlog" src="   {{ post.image }}">
+
+<img class="cityImage" src="/assets/ali_images/ali_pic.jpg" alt="Picture Of Toronto">
+
+
+Blastoise, which is Squirtle’s last and second evolution is able to swim in rivers and oceans.
+He can carry you and the rest of your Pokémons on his back to many islands in the middle on the oceans. This is very useful for exploring new lands, find Pokémons and completing your Pokédex. 
+Blastoise is also only water type.
+
+![Picture description](/assets/ali_images/ali_pic.jpg){: .center-image }
+
+Charizard, which is the second and last evolution of Charmander, this Pokémon is by far the best choice from the starter Pokémons. He can fly and similar Blastoise, provide a form of mobility by carrying you and your Pokémons around the world.
+Charizard is a two type. Fire and Flying and has the edge over Blastoise as the better choice. 
+Of course, in a 1 v 1 battle, Blastoise will win over Charizard as water beats fire. Charizard on the other hand, will win battles against grass types and other Pokémons that are weak to flying types.
+
+Venusaur, the second and last evolution of Bulbasaur. Venusaur does not provide form of mobility/utility like Charizard and Blastoise. Although, Venusaur is a grass and poison type, this Pokémon in my opinion is by far the weakest and this is why you should not choose Bulbasaur as your starting options.
+
+<strong>In terms of my power ranking.</strong><br>
+
+1st: Charizard (Fire and Flying) + Mobility <br>
+2nd: Blastoise (Water) + Mobility <br>
+3rd: Venusaur (Grass and Poison) <br>
+
+How I would balance this.
+
+<strong>Blastoise buff:</strong><br>
+Give him a second type. I suggest a tank type. He does a shell that can absorb damage which would kind of make sense. If an attack did 100 HP damage, it will now do 80 HP as Blastoise new tank type with the help of his shell would absorb a small portion of the attack’s damage.
+
+ <strong>Venusaur buff:</strong><br>
+It does not make sense to give this Pokémon a mobility ability, he can’t fly nor can he swim and is when it comes to moving around, he overall very slow in my opinion. In order to make Venusaur more of a viable option, he needs to be buffed in other ways. Giving him a healing ability makes the most sense.
+
+With these changes, it will make choosing Bulbasaur as starter Pokémon equally as good as choosing the other two option. 
+

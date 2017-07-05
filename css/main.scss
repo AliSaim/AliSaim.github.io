@@ -184,6 +184,32 @@ margin-left: 25px;
 //END of Blogs Page ----------------
 
 
+/* To center images */
+.center {
+    text-align: center;
+    border: 4px solid pink;
+}
+
+
+.center-image
+{
+    border-radius: 50px;
+    border: 5px solid green;
+      margin: 0 auto;
+  display: block;
+}
+
+.cityImage{
+    border-radius: 10px;
+}
+
+
+
+.post.img
+{
+    border: 3px solid red;
+   border-radius: 10px;
+}
 
 
 // Use media queries like this:
