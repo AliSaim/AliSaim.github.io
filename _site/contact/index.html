@@ -89,47 +89,94 @@ You can find the source code for Jekyll at
 
                         <div class="col-xs-6 col-md-8" id="formSectionOfContactPage">
 
-                                <form>
-                                    <div class="form-group"> <br>
-                                        <label for="inputFirstName" class="col-sm-2 col-form-label">First Name <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-                                        </div>
-                                    </div>
+                                <form id="gform" method="POST" class="pure-form pure-form-stacked"
+                                    action="https://script.google.com/macros/s/AKfycbzSVfUVUpdUlF8_vCXX3LTk5jYokWE74xX8lOOeX5dg61m8YgU/exec">
+                                     <!-- change the form action to your script url -->
+                                
 
-                                   
+                                        <div class="form-group">
+                                            <fieldset class="pure-group">
+                                             
+                                                 <label for="FirstName" class="col-sm-2 col-form-label">First Name <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="FirstName" name="FirstName" required placeholder="First Name">
+                                                </div>
+
+                                            </fieldset>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <fieldset class="pure-group">
+
+                                                <label for="LastName" class="col-sm-2 col-form-label">Last Name</label>
+                                                <div class="col-sm-10">
+                                                    <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Optional">
+                                                </div>
+                                             </fieldset>
+                                        </div>   
+
+
+
+
+                                        <div class="form-group">
+
+                                            <fieldset class="pure-group">
+
+                                                <label for="email" class="col-sm-2 col-form-label">E-mail <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
+                                                <div class="col-sm-10">
+                                                    <input type="email" value="" class="form-control" id="email" name="email" required placeholder="your.name@email.com">
+                                                    <span id="email-invalid" style="display:none">
+                                                        Must be a valid email address
+                                                    </span>
+                                                </div>
+
+                                            </fieldset>
+                                        </div>
+
+
+                            
+                                        
                                     
-                                    <div class="form-group"> <br><br>
-                                        <label for="inputLastName" class="col-sm-2 col-form-label">Last Name</label>
-                                        <div class="col-sm-10">
-                                            <input type="text" class="form-control" id="inputLastName" placeholder="Optional">
+                                        <div class="form-group"> <br>
+                                            <fieldset class="pure-group">
+
+                                            <label for="message" class="col-sm-2 col-form-label">Message <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
+                                            <div class="col-sm-10">
+                                                <textarea id="message" name="message" class="form-control" required placeholder="Write your email..." rows="12"></textarea> <br>
+                                            </div>
+
+                                             </fieldset>
                                         </div>
-                                    </div>    
 
-                
-                                    <div class="form-group"> <br><br>
-                                        <label for="inputEmail" class="col-sm-2 col-form-label">E-mail <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
-                                        <div class="col-sm-10">
-                                            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address">
-                                        </div>
-                                    </div>
-
-                        
-
-                                    <div class="form-group"> <br><br>
-                                        <label for="exampleTextarea" class="col-sm-2 col-form-label">Message <i class="fa fa-asterisk" aria-hidden="true"></i> </label>
-                                        <div class="col-sm-10">
-                                            <textarea class="form-control" id="exampleTextarea" placeholder="Currently this functionality does not work. Please bear with me..." rows="12"></textarea> <br>
-                                        </div>
-                                    </div>
-
-                                  
+        
 
                                     <div class="formButtons" id="formButtonsId">
-                                        <button type="button" class="btn btn-warning">Clear</button>
-                                        <button type="submit" class="btn btn-success">Send!</button>
+                                        <button type="reset" class="btn btn-warning"> <i class="fa fa-eraser" aria-hidden="true"></i>&nbsp;Clear</button>
+
+                                        <button type="sumbit" class="btn btn-success pure-button button-xlarge"> <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+                                        <!-- 
+                                        <button type="submit" class="btn btn-success" value="Submit" >Send!</button>
+                                        -->
+
+                                        <!-- <button onclick="sendMail(); return false">Send</button> -->
                                     </div>    
                                 </form>    
+
+
+                                    <!-- Customise the Thankyou Message People See when they submit the form: -->
+                                    <div style="display:none;" id="thankyou_message">
+                                        <h2><em>Thank you for your email.</em>
+                                        I will get back to you as soon as I can! :)</h2>
+                                    </div>
+
+                                    <!-- Submit the Form to Google Using "AJAX" -->
+                                    <script data-cfasync="false" type="text/javascript"
+                                    src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+                                    <!-- <script data-cfasync="false" type="text/javascript"
+                                    src="/form-submission-handler.js"></script> -->
+                                    <!-- END -->
 
                             
 
@@ -194,6 +241,18 @@ You can find the source code for Jekyll at
 
             </div> <!-- END of container -->    
 
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
     <footer class="site-footer">
@@ -247,6 +306,9 @@ You can find the source code for Jekyll at
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+
+<!--CUSTOME JS -->
+<script src="/js/test.js"></script>
 
 
 
