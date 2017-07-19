@@ -9,19 +9,19 @@ image: /assets/blogPage/Bulbasaur.png
 ---
 Given the choice of Charmander, Squirtle and Bulbasaur, you should always choose between the two former and never Bulbasaur. Once these three starter Pokémons have fully evolved to their last form, Bulbasaur is useless in comparison to the other two and does not provide as much as the other two starter Pokémon.
 
-<img class="cityImage" src="/assets/blogPage/Blastoise.png" style="text-align:center;border-radius:15px;">
+<img class="cityImage" src="/assets/blogPage/Blastoise.png" style="text-align:center;display:block;margin-left:auto;margin-right:auto;">
 
 Blastoise, which is Squirtle’s last and second evolution is able to swim in rivers and oceans.
 He can carry you and the rest of your Pokémons on his back to many islands in the middle on the oceans. This is very useful for exploring new lands, find Pokémons and completing your Pokédex. 
 Blastoise is also only water type.
 
-<img class="cityImage" src="/assets/blogPage/Charizard.png" style="text-align:center;border-radius:15px;">
+<img class="cityImage" src="/assets/blogPage/Charizard.png" style="text-align:center;display:block;margin-left:auto;margin-right:auto;">
 
 Charizard, which is the second and last evolution of Charmander, this Pokémon is by far the best choice from the starter Pokémons. He can fly and similar Blastoise, provide a form of mobility by carrying you and your Pokémons around the world.
 Charizard is a two type. Fire and Flying and has the edge over Blastoise as the better choice. 
 Of course, in a 1 v 1 battle, Blastoise will win over Charizard as water beats fire. Charizard on the other hand, will win battles against grass types and other Pokémons that are weak to flying types.
 
-<img class="cityImage" src="/assets/blogPage/Venusaur.png" style="text-align:center;border-radius:15px;">
+<img class="cityImage" src="/assets/blogPage/Venusaur.png" style="text-align:center;display:block;margin-left:auto;margin-right:auto;">
 
 Venusaur, the second and last evolution of Bulbasaur. Venusaur does not provide form of mobility/utility like Charizard and Blastoise. Although, Venusaur is a grass and poison type, this Pokémon in my opinion is by far the weakest and this is why you should not choose Bulbasaur as your starting options.
 
