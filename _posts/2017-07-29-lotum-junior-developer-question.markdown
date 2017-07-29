@@ -4,7 +4,7 @@ title:  "Junior Developer - lotum - Toronto, ON"
 date:   2017-07-29 12:35:58 +0200
 categories: Job, Interview, lotum, Simple Questions
 topics: Pre-Interview Question
-summary: My Answers to the pre-interview questions for the Junior Developer Position. I put my answers here because the the indeed.com portal did not have a section to upload the answers for the questions. 
+summary: My Answers to the pre-interview questions for the Junior Developer Position. I put my answers here because the indeed.com job portal did not have a section to upload the answers for the questions. 
 ---
 
 
@@ -148,7 +148,7 @@ x = 5;<br>
 y = 5;<br>
 z = 5;<br>
 
-a = 6 + 5 + 6;<br>
+a = 5 + 5 + 5;<br>
 sum of a = 15<br>
 
 15 is within range<br>
@@ -189,7 +189,7 @@ public class Main {
 
 {% endhighlight %}
 
-<br>
+<hr>
 
 
 <strong>Question 3:</strong><br>
