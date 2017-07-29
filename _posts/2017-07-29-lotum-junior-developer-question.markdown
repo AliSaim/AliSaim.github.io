@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Size of the Universe"
-date:   2017-07-12 17:09:58 +0200
-categories: Universe
-topics: Blog
-summary: Comming Soon...
-image: /assets/blogPage/comingsoon.png
+title:  "Junior Developer - lotum - Toronto, ON"
+date:   2017-07-29 12:35:58 +0200
+categories: Job, Interview, lotum, Simple Questions
+topics: Pre-Interview Question
+summary: My Answers to the pre-interview questions for the Junior Developer Position.
+image: /assets/blogPage/Bulbasaur.png
 ---
 
-Coming Soon... Please be patient :)
-
+<p>
 
 Question 1: 
 Write a function that prints the numbers from 1 to 100. But for multiples of three print “Foo” instead of the number and for the multiples of five print “Bar”. For numbers which are multiples of both three and five print “FooBar”.

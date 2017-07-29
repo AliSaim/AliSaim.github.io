@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "Size of the Universe"
-date:   2017-07-12 17:09:58 +0200
-categories: Universe
-topics: Blog
-summary: Comming Soon...
-image: /assets/blogPage/comingsoon.png
+title:  "Junior Developer - lotum - Toronto, ON"
+date:   2017-07-29 12:35:58 +0100
+categories: Job Interview lotum Simple Questions
+topics: pre-interview, questions
+summary: My Answers to the pre-interview questions for the Junior Developer Position.
+image: /assets/blogPage/Bulbasaur.png
 ---
 
-Coming Soon... Please be patient :)
+<p>
 
-
-Question 1: 
+<strong>Question 1:</strong> 
 Write a function that prints the numbers from 1 to 100. But for multiples of three print “Foo” instead of the number and for the multiples of five print “Bar”. For numbers which are multiples of both three and five print “FooBar”.
 
  
@@ -61,7 +60,7 @@ public class Main {
 
 
 
-Question 2:
+<strong>Question 2:</strong>
 Write a function that determines the number of even numbers that appear in a range of integers 0..n, where n is supplied as the sole argument to your function.
 Example:
 even_integers(3)
@@ -102,7 +101,7 @@ public class Main {
 
 
 
-Question 3:
+<strong>Question 3:</strong>
 Given the following pseudo code, determine the range of possible values for “a”.
 x = random_int(1,6)
 y = random_int(1,6)
@@ -182,7 +181,8 @@ public class Main {
 
 
 
-Question 4:
+
+<strong>Question 4:</strong>
 Given: words = ['one', 'one', 'two', 'three', 'three', 'two']
 
 
