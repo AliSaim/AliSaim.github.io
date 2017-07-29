@@ -8,15 +8,17 @@ summary: My Answers to the pre-interview questions for the Junior Developer Posi
 image: /assets/blogPage/Bulbasaur.png
 ---
 
-<p>
 
-Question 1: 
+
+<strong>Question 1:</strong><br>
 Write a function that prints the numbers from 1 to 100. But for multiples of three print “Foo” instead of the number and for the multiples of five print “Bar”. For numbers which are multiples of both three and five print “FooBar”.
 
- 
+ <br>
 Example output: 1 2 Foo 4 Bar Foo 7 8 Foo Bar 11 Foo 13 14 FooBar …
+<br>
 
 
+{% highlight java %}
 public class Main {
 
 	public static void main(String[] args) {
@@ -56,6 +58,7 @@ public class Main {
 	}
 }
 
+{% endhighlight %}
 
 
 
