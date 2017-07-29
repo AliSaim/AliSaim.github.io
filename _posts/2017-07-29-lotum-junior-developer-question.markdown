@@ -4,10 +4,8 @@ title:  "Junior Developer - lotum - Toronto, ON"
 date:   2017-07-29 12:35:58 +0200
 categories: Job, Interview, lotum, Simple Questions
 topics: Pre-Interview Question
-summary: My Answers to the pre-interview questions for the Junior Developer Position.
-image: /assets/blogPage/Bulbasaur.png
+summary: My Answers to the pre-interview questions for the Junior Developer Position. I put my answers here because the the indeed.com portal did not have a section to upload the answers for the questions. 
 ---
-
 
 
 <strong>Question 1:</strong><br>
@@ -60,16 +58,17 @@ public class Main {
 
 {% endhighlight %}
 
+<hr>
 
 
+<strong>Question 2:</strong><br>
+Write a function that determines the number of even numbers that appear in a range of integers 0..n, where n is supplied as the sole argument to your function.<br><br>
+Example:<br>
+even_integers(3)<br>
+2<br>
 
-Question 2:
-Write a function that determines the number of even numbers that appear in a range of integers 0..n, where n is supplied as the sole argument to your function.
-Example:
-even_integers(3)
-2
 
-
+{% highlight java %}
 public class Main {
 
 	public static void main(String[] args) {
@@ -99,61 +98,65 @@ public class Main {
 	}
 }
 
+{% endhighlight %}
+
+
+<hr>
 
 
 
 
+<strong>Question 3:</strong><br>
+Given the following pseudo code, determine the range of possible values for “a”.<br>
+x = random_int(1,6)<br>
+y = random_int(1,6)<br>
+z = random_int(1,6)<br>
+a = x + y + z<br>
 
-Question 3:
-Given the following pseudo code, determine the range of possible values for “a”.
-x = random_int(1,6)
-y = random_int(1,6)
-z = random_int(1,6)
-a = x + y + z
+Range has a start point and end point.<br>
 
-Range has a start point and end point.
+variable x can be any number between 1 and 5<br>
 
-variable x can be any number between 1 and 5
+variable  y also, can be any number between 1 and 5<br>
 
-variable  y also, can be any number between 1 and 5
+variable  z also, can be any number between 1 and 5<br>
 
-variable  z also, can be any number between 1 and 5
+to find and determine the start of range, we must find the lowest number all of these 3 variables can have at any instance.<br.>
+In this case it is 1.<br>
 
-to find and determine the start of range, we must find the lowest number all of these 3 variables can have at any instance.
-In this case it is 1.
+variable a, can have an instance of adding 1 three times.<br>
+1+1+1 = 3.<br>
 
-variable a, can have an instance of adding 1 three times.
-1+1+1 = 3.
-
-RangeStart will be 3.
-
-
-Range End will be the largest number the that is returned by the random_int function.
-In this case that is 5.
+RangeStart will be 3.<br>
 
 
-variable a, can have also have an instance of adding 5 three times.
-5+5+5 = 15.
-
-RangeEnd = 15;
-
-Range: 3-15
+Range End will be the largest number the that is returned by the random_int function.<br>
+In this case that is 5.<br>
 
 
-Test Case 1:
+variable a, can have also have an instance of adding 5 three times.<br>
+5+5+5 = 15.<br>
 
-x = 6;
-y = 5;
-z = 4;
+RangeEnd = 15;<br>
 
-a = 6+5+4;
-sum of a = 15
+Range: 3-15<br>
 
-15 is within range
 
+<b>Test Case 1:</b>
+
+x = 5;<br>
+y = 5;<br>
+z = 5;<br>
+
+a = 6 + 5 + 6;<br>
+sum of a = 15<br>
+
+15 is within range<br>
 
 
 
+{% highlight java %}
+//import the Random library
 import java.util.Random;
 
 public class Main {
@@ -169,25 +172,32 @@ public class Main {
 		
 		a = x + y + z;
 		
+		//will print a number between range of 3 and 15
 		System.out.println(a);
 	}
 	
 	public static int random_int(int firstNum, int secondNum)
 	{
+		//create a randon objject
 		Random r = new Random();
+
 		int low = firstNum;
 		int max = secondNum;
 		return (r.nextInt(max-low) + low);
 	}
 }
 
+{% endhighlight %}
+
+<br>
 
 
+<strong>Question 3:</strong><br>
+Given: words = ['one', 'one', 'two', 'three', 'three', 'two']<br>
+<br>
 
-Question 4:
-Given: words = ['one', 'one', 'two', 'three', 'three', 'two']
-
-
+{% highlight java %}
+//import these libraries
 import java.util.HashSet;
 import java.util.Set;
 
@@ -212,4 +222,7 @@ public class Main {
 	}
 }
 
-</p>
+{% endhighlight %}
+
+
+<strong>Thank you :)</strong>
