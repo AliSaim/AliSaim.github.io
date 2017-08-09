@@ -192,7 +192,7 @@ public class Main {
 <hr>
 
 
-<strong>Question 3:</strong><br>
+<strong>Question 4:</strong><br>
 Given: words = ['one', 'one', 'two', 'three', 'three', 'two']<br>
 <br>
 
